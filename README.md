@@ -7,7 +7,7 @@ in `AddOns` folder you copy what is in `library.txt` and paste it into your term
 
 **AddOns folder**:  
 `paste.py` -   
-this file is used as "cheat sheet" to give easier start to making new scripts.    
+This file is a "cheat sheet" to make it easier for you to create new scripts.   
 
 `position.py` -   
 When you start the script put your mouse cursor on possition of which you want to know coordinates and RGB value, then press ']' key to get those values. They will be printed out in the terminal.
