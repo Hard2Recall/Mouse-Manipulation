@@ -14,7 +14,9 @@ When you run the program it is going to automatically go to coordinates you putt
 
 `autoclickerV2.py` - when you start the program a small window will pop up that works as standard autoclicker terminal for quick configuration.
 
-`pianotiles.py` - fun little script that automatically plays piano tiles game. 
+`pianotiles.py` - fun little script that automatically plays piano tiles game.  
+Program is made to work on *https://www.primarygames.com/arcade/music/pianotiles/* website.  
+Open the website, run the program, alt+tab back to the website and watch it does its magic.
 
 `reactions.py` - this program is made to get best possible result in reaction game on humanbecnhmark.com  
 Just open the website, run the code and alt+tab back to the website.
