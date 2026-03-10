@@ -10,12 +10,12 @@ in `AddOns` folder you copy what is in `library.txt` and paste it into your term
 This file is a "cheat sheet" to make it easier for you to create new scripts.   
 
 `position.py` -   
-When you start the script put your mouse cursor on possition of which you want to know coordinates and RGB value, then press ']' key to get those values. They will be printed out in the terminal.
+When you start the script put your mouse cursor on possition of which you want to know coordinates and RGB value, then press the ']' key to have the coordinate and RGB values printed to the terminal.
   
 **Main folder**:  
 `autoclicker.py` -   
 in code you set coordinates of the pixel you want clicked and just run the code.   
-When you run thescript it is going to automatically go to coordinates you putted and start clicking.   
+When you run the script it is going to automatically go to coordinates you putted and start clicking.   
 Use 'q' to stop the script. 
 
 `autoclickerV2.py` -   
