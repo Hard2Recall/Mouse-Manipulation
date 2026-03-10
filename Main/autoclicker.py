@@ -5,13 +5,18 @@ import keyboard
 import random
 import win32api, win32con
 
-def click(x,y):
+
+#look in paste.py for explanation
+def Lclick(x,y):
     win32api.SetCursorPos((x,y))
     win32api.mouse_event(win32con.MOUSEEVENTF_LEFTDOWN,0,0)
-    #optional time.sleep(x) drzi klik x broj sekundi
+    #optional time.sleep(x) hold click x amount of seconds
     win32api.mouse_event(win32con.MOUSEEVENTF_LEFTUP,0,0)
 
+
+
+#program will run untill 'q' key is pressed
 while keyboard.is_pressed('q') == False:
-    click(769, 400)
+    Lclick(769, 400)#coordinates of the pixel that needs to be clicked
     time.sleep(0.2)
     

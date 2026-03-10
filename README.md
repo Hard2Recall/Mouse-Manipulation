@@ -1,22 +1,23 @@
 # MOUSE MANIPULATION SCRIPTS USING PYTHON
 
-SETUP:  
-in `AddOns` folder you copy what is in `library.txt` and paste it into your terminal.
+**SETUP**:  
+in `AddOns` folder you copy what is in `library.txt` and paste it into your terminal, this will download all libraries needed for code to work.
 
-USAGE:  
+**USAGE**:  
 AddOns folder:  
-`paste.py` - this is here if you want to make new script to help you out to get started.  
-`position.py` - you use this when you want to get "coordinates" of your mouse cursor and RGB value of pixel your cursors is on.
+`paste.py` - this file is used as "cheat sheet" to give easier start to making new scripts.  
+`position.py` - When you start the program put your mouse cursor on possition of which you want to know coordinates and RGB value, then press ']' key to get those values. They will be printed out in the terminal.
   
-Main folder:  
-`autoclicker.py` - you put in code the coordinates you want to be autoclicked and you run it.   
-When you run it its going to automatically go to that mouse position and start clicking untill you press letter "q" on your keyboard. 
+**Main folder**:  
+`autoclicker.py` - in code you set coordinates of the pixel you want clicked and just run the code.   
+When you run the program it is going to automatically go to coordinates you putted and start clicking untill you press the letter "q" on your keyboard. 
 
-`autoclickerV2.py` - when you run it you're gonna get pop up window and it works like any autoclicker everything is self explanatory there.  
+`autoclickerV2.py` - when you start the program a small window will pop up that works as standard autoclicker terminal for quick configuration.
 
-`pianotiles.py` - fun little script that automatically plays piano tiles game on this website (https://www.primarygames.com/arcade/music/pianotiles/).   
-If you want it to work on other websites for this game you will need to change mouse possitions in code.  
+`pianotiles.py` - fun little script that automatically plays piano tiles game. 
 
-`reactions.py` - is used to get best possible result in reaction game on humanbecnhmark.com
+`reactions.py` - this program is made to get best possible result in reaction game on humanbecnhmark.com  
+Just open the website, run the code and alt+tab back to the website.
 
-`Rf4Crafting.py` - is used in game called Russian Fishing 4 to automatically craft stuff so you dont have to spend 10mins clicking 2 of the same buttons.
+`Rf4Crafting.py` - this program is used in game called Russian Fishing 4 to automatically craft stuff so you dont have to spend 10mins clicking 2 of the same buttons.  
+Start the game, go into the crafting menu,select what you want crafted, start the program, alt+tab back to the game and it will start crafting.

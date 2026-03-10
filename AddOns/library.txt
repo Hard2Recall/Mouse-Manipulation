@@ -1,1 +1,3 @@
 pip install pywin32 keyboard pyautogui opencv-python pillow
+
+paste this in your terminal to download all the libaries needed
