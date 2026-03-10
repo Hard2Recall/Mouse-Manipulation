@@ -5,7 +5,7 @@ in `AddOns` folder you copy what is in `library.txt` and paste it into your term
 
 USAGE:  
 AddOns folder:  
-`paste.py` - this is here if you want to make new script to help you out to get started.
+`paste.py` - this is here if you want to make new script to help you out to get started.  
 `position.py` - you use this when you want to get "coordinates" of your mouse cursor and RGB value of pixel your cursors is on.
   
 Main folder:  
