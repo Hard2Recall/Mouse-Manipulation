@@ -10,7 +10,7 @@ in `AddOns` folder you copy what is in `library.txt` and paste it into your term
 This file is a "cheat sheet" to make it easier for you to create new scripts.   
 
 `position.py` -   
-When you start the script put your mouse cursor on possition of which you want to know coordinates and RGB value, then press the ']' key to have the coordinate and RGB values printed to the terminal.
+When you start the script put your mouse cursor on possition of which you want to know coordinates and RGB value of, then press the ']' key to have the coordinate and RGB values printed to the terminal.
   
 **Main folder**:  
 `autoclicker.py` -   
@@ -31,5 +31,5 @@ this script is made to get best possible result in reaction game - *https://huma
 Just open the website, run the code and alt+tab back to the website and thats it.
 
 `Rf4Crafting.py` -   
-this scri[t is used in game called Russian Fishing 4 to automatically craft stuff so you dont have to spend 10mins clicking 2 of the same buttons.  
+this script is used in game called Russian Fishing 4 to automatically craft stuff so you dont have to spend 10mins clicking 2 of the same buttons.  
 Start the game, go into the crafting menu,select what you want crafted, start the program, alt+tab back to the game and it will start crafting.
