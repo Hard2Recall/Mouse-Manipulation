@@ -1,8 +1,6 @@
 from pyautogui import *
-import pyautogui
 import time
 import keyboard
-import random
 import win32api, win32con
 
 
@@ -17,6 +15,6 @@ def Lclick(x,y):
 
 #program will run untill 'q' key is pressed
 while keyboard.is_pressed('q') == False:
-    Lclick(769, 400)#coordinates of the pixel that needs to be clicked
+    Lclick(769, 400) #coordinates of the pixel that needs to be clicked
     time.sleep(0.2)
     

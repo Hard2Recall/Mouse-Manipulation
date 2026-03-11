@@ -1,7 +1,7 @@
 import pyautogui
 import time
 from PIL import ImageGrab
-import keyboard  # Requires 'keyboard' module
+import keyboard  
 
 #function that defines getting cursor cordinates and rgb color of the pixel that cursor is on
 def get_mouse_position_and_color():
@@ -17,6 +17,7 @@ def main():
     print("Press ] to get mouse position and color. Press ESC to exit.")
     try:
         while True:
+            #when ']' key is pressed get possition and RGB value
             if keyboard.is_pressed(']'):
                 mouse_position, color = get_mouse_position_and_color()
                 print(f"Mouse position: {mouse_position}, RGB color: {color}")

@@ -1,8 +1,6 @@
 from pyautogui import *
 import pyautogui
 import time
-import keyboard
-import random
 import win32api, win32con
 
 
@@ -15,14 +13,14 @@ def Lclick(x,y):
     #optional time.sleep(x) drzi klik x broj sekundi
     win32api.mouse_event(win32con.MOUSEEVENTF_LEFTUP,0,0)
 
-time.sleep(3)#delay so you can switch tabs
+time.sleep(3) #delay so you can switch tabs
 
 
-
+#main function
 def doit():
     time.sleep(2)
 
-    Lclick(1205, 391)
+    Lclick(1205, 391) #coordinates of the pixel that needs to be clicked
 
     while 1:
         if pyautogui.pixel(1172, 384) [1] == 219: #if pixel has value green=219 click

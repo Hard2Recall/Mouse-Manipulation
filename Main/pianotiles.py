@@ -2,7 +2,6 @@ from pyautogui import *
 import pyautogui
 import time
 import keyboard
-import random
 import win32api, win32con
 
 #website that this exact code will work is: https://www.primarygames.com/arcade/music/pianotiles/
@@ -19,9 +18,9 @@ while keyboard.is_pressed('q') == False:
     
     if pyautogui.pixel(992, 526)[0] == 0: #if pixel has value of red=0 click
         Lclick(992, 526)
-    if pyautogui.pixel(773, 559)[0] == 0:
+    if pyautogui.pixel(773, 559)[0] == 0: #if pixel has value of red=0 click
         Lclick(773, 559)
-    if pyautogui.pixel(552, 564)[0] == 0:
+    if pyautogui.pixel(552, 564)[0] == 0: #if pixel has value of red=0 click
         Lclick(552, 564)
-    if pyautogui.pixel(334, 578)[0] == 0:
+    if pyautogui.pixel(334, 578)[0] == 0: #if pixel has value of red=0 click
         Lclick(334, 578)
